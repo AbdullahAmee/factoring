@@ -1,0 +1,61 @@
+body{
+    margin-top: 60px;
+    background-image: url('../data/backround.png'); /* Replace with your image URL */
+    background-size: cover;   /* Ensure the image covers the full page */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Parallax effect - the background is fixed when scrolling */
+   
+    padding: 15px;
+    height: 100%;
+}
+
+.solovebutton1 {
+    width: 95px;
+    height: 32px;
+    background-color: rgb(4, 4, 87);
+    color: white;
+    border: 0.5px solid rgb(223, 223, 211);
+    border-radius: 5px;
+    margin-left: -90px;
+}
+
+
+
+#result{
+    color: white;
+    font-size: 18px;
+}
+
+input::placeholder {
+    font-size: 13px;
+    text-align: center;
+    color: rgb(136, 131, 131);
+}
+#result2{
+    color: white;
+}
+
+.position{
+    text-align: center;
+}
+
+.shining-border {
+    width: 200px;
+    padding: 3px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(120deg, red, yellow, rgb(3, 252, 3), rgb(252, 252, 255), red) border-box;
+    animation: shine 3s linear infinite;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
