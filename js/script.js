@@ -14,5 +14,5 @@ document.getElementById('factorButton').onclick = function() {
         }
     }
     let formattedPairs = factorPairs.map(pair => '(' + pair[0] + ', ' + pair[1] + ')').join(', ');
-    document.getElementById('result2').innerHTML = 'The factor pairs of ' + input + ' are: <br> ' + formattedPairs;
+    document.getElementById('result2').innerHTML = 'The factor pairs of ' + input + ' are: <br> ' + formattedPairs + '<br>'+'<br>' +' Math is fun&#128512;';
   };
