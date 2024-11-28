@@ -59,3 +59,7 @@ input::placeholder {
       background-position: 100% 50%;
     }
   }
+
+  .myname{
+    color: rgb(7, 94, 194);
+  }
